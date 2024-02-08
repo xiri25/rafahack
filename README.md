@@ -12,3 +12,6 @@ pyinstaller.exe --onefile --hidden-import cryptography <archivo.py>
 from multiprocessing import freeze_support
 freeze_support()
 para multiprocccessing cuando el arechivo es un ejecutable en lugar de un .py
+
+
+HAY QUE SANITIZAR LOS FORMULARIOS!!!!
