@@ -72,8 +72,7 @@ def decrypt_array(files, key):
 
 if __name__ == "__main__":
 
-    if os.name == 'nt':  # Check if the operating system is Windows
-        freeze_support()
+    freeze_support()
 
     passwd = input("Clave: ")
     archivos_array, len_archivos = tree(Path.cwd())
