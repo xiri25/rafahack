@@ -35,7 +35,7 @@
         $id = $_GET['id'];
     
         if (isset($_POST['has_pagado']) && $_POST['has_pagado'] == "si") {
-            // Ensure you have a valid database connection object here
+           
             $sql = 'SELECT victima_key FROM victimas WHERE victima_id=?';
             $consulta = $Db->consulta($sql, [$id]);
     
